@@ -37,7 +37,7 @@ function App() {
                 {!tokenAuth ? <Route exact path="/" component={Home} /> : <Route exact path="/" component={LoggedHome}/> }
                 <Route path="/login" component={Login} />
                 <Route path="/register" component={Register} />
-                {/* <Route render={() => <NotFound/>} /> */}
+                <Route render={() => <NotFound/>} />
               </Switch>
             </section>
           <Footer/>
