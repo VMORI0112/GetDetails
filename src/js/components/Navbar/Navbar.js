@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
-import plane from '../../../img/plane.png';
+import plane from '../../../img/plane.gif';
 
 const AircraftTrainNavBar = () => {
     
