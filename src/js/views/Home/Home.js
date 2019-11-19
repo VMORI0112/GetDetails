@@ -1,6 +1,16 @@
 import React from 'react';
 import styles from './Home.module.css';
 import worker1 from '../../../img/home/worker1.jpg';
+import port1 from '../../../img/home/port1.jpg';
+import port2 from '../../../img/home/port2.jpg';
+import port3 from '../../../img/home/port3.jpg';
+import port4 from '../../../img/home/port4.jpg';
+import port5 from '../../../img/home/port5.jpg';
+import port6 from '../../../img/home/port6.jpg';
+import port7 from '../../../img/home/port7.jpg';
+import port8 from '../../../img/home/port8.jpg';
+import port9 from '../../../img/home/port9.jpg';
+
 
 const Home = () => {
     return (
@@ -19,6 +29,38 @@ const Home = () => {
                     </div>
                     <div className={["col-sm-12 col-md-6 col-lg-6", styles.worker1].join(' ')}>
                         <img src={worker1} alt="worker1" width="100%" />
+                    </div>
+                </div>
+            </div>
+            <div className="portfolio container my-5">
+                <h2>Portfolio</h2>
+                <div className="row">
+                    <div className="col-sm-12 col-md col-lg">
+                        <img src={port1} alt="port1" width="100%" height="100%" />
+                    </div>
+                    <div className="col-sm-12 col-md-4 col-lg-4">
+                        <img src={port2} alt="port2" width="100%" height="100%" />
+                    </div>
+                    <div className="col-sm-12 col-md-4 col-lg-4">
+                        <img src={port3} alt="port3" width="100%" height="100%" />
+                    </div>
+                    <div className="col-sm-12 col-md-4 col-lg-4">
+                        <img src={port4} alt="port4" width="100%" height="100%" />
+                    </div>
+                    <div className="col-sm-12 col-md-4 col-lg-4">
+                        <img src={port5} alt="port5" width="100%" height="100%" />
+                    </div>
+                    <div className="col-sm-12 col-md-4 col-lg-4">
+                        <img src={port6} alt="port6" width="100%" height="100%" />
+                    </div>
+                    <div className="col-sm-12 col-md-4 col-lg-4">
+                        <img src={port7} alt="port7" width="100%" height="100%" />
+                    </div>
+                    <div className="col-sm-12 col-md-4 col-lg-4">
+                        <img src={port8} alt="port8" width="100%" height="100%" />
+                    </div>
+                    <div className="col-sm-12 col-md-4 col-lg-4">
+                        <img src={port9} alt="port9" width="100%" height="100%" />
                     </div>
                 </div>
             </div>
