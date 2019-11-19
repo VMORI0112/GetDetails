@@ -12,7 +12,7 @@ const AircraftTrainNavBar = () => {
    
     return (
         <>
-        <nav className={["navbar fixed-top navbar-expand-lg navbar-light", styles.navBarI].join(' ')}>
+        <nav className={["navbar fixed-top navbar-expand-lg navbar-light", styles.navBarAirplane].join(' ')}>
             <div className="container">
                 <Link className="navbar-brand mobile" to="/">
                     <img src={plane} width="30" height="30" className="d-inline-block align-top" alt="airplane"/>
