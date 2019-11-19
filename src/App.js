@@ -5,6 +5,7 @@ import './App.css';
 import Footer from './js/components/Footer/Footer';
 import Navbar from './js/components/Navbar/Navbar';
 
+const NotFound = lazy(() => import('./js/views/NotFound/NotFound'));
 const Home = lazy(() => import('./js/views/Home/Home'));
 const LoggedHome = lazy(() => import('./js/views/LoggedHome/LoggedHome'));
 const Login = lazy(() => import('./js/views/Login/Login'));
