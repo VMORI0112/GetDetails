@@ -7,6 +7,8 @@ import Navbar from './js/components/Navbar/Navbar';
 
 const Home = lazy(() => import('./js/views/Home/Home'));
 const LoggedHome = lazy(() => import('./js/views/LoggedHome/LoggedHome'));
+const Login = lazy(() => import('./js/views/Login/Login'));
+const Register = lazy(() => import('./js/views/Register/Register'));
 
 function App() {
 
@@ -33,9 +35,9 @@ function App() {
             <section style={{minHeight: windowHeight}}>
               <Switch>
                 {!tokenAuth ? <Route exact path="/" component={Home} /> : <Route exact path="/" component={LoggedHome}/> }
-                {/* <Route path="/login" component={Login} />
+                <Route path="/login" component={Login} />
                 <Route path="/register" component={Register} />
-                <Route render={() => <NotFound/>} /> */}
+                {/* <Route render={() => <NotFound/>} /> */}
               </Switch>
             </section>
           <Footer/>
