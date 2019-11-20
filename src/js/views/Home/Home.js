@@ -90,7 +90,7 @@ const Home = () => {
             <div className={styles.contact}>
                 <div className="container py-5">
                     <h2>Contact us</h2>
-                    <div className="row">
+                    <div className="row mt-3">
                         <div className="col-sm-12 col-md-6 col-lg-6">
                             <div className={styles.contactInput}>
                                 <input type="text"/>
@@ -103,7 +103,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-6 col-lg-6">
-                            <textarea name="message" id="" cols="30" rows="10"></textarea>
+                            <textarea className={styles.message} name="message"></textarea>
                         </div>
                     </div>
                 </div>
