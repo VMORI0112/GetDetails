@@ -104,6 +104,7 @@ const Home = () => {
                         </div>
                         <div className="col-sm-12 col-md-6 col-lg-6">
                             <textarea className={styles.message} name="message" placeholder="How can we help you today?" ></textarea>
+                            <button className={styles.btnSendMessage}>Send Message</button>
                         </div>
                     </div>
                 </div>
