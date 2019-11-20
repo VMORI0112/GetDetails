@@ -65,8 +65,14 @@ const Home = () => {
                 </div>
             </div>
             <div className={styles.services}>
-                <div className="container">
+                <div className="container py-5">
                     <h2>Services</h2>
+                    <div className="row">
+                        <div className="col">1</div>
+                        <div className="col">2</div>
+                        <div className="col">3</div>
+                        <div className="col">4</div>
+                    </div>
                 </div>
             </div>
         </section>
