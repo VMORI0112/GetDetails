@@ -73,18 +73,23 @@ const Home = () => {
                     <h2>Services</h2>
                     <div className="row">
                         <div className="col-sm-12 col-md-3 col-lg-3">
-                            <img src={hp1} alt="hp1" width="100%" />
+                            <img src={hp1} alt="hp1" width="100%" height="100%" />
                         </div>
                         <div className="col-sm-12 col-md-3 col-lg-3">
-                            <img src={hp2} alt="hp2" width="100%" />
+                            <img src={hp2} alt="hp2" width="100%" height="100%" />
                         </div>
                         <div className="col-sm-12 col-md-3 col-lg-3">
-                            <img src={hp3} alt="hp3" width="100%" />
+                            <img src={hp3} alt="hp3" width="100%" height="100%" />
                         </div>
                         <div className="col-sm-12 col-md-3 col-lg-3">
-                            <img src={hp4} alt="hp4" width="100%" />
+                            <img src={hp4} alt="hp4" width="100%" height="100%" />
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className={styles.contact}>
+                <div className="container py-5">
+                    <h2>Contact us</h2>
                 </div>
             </div>
         </section>
