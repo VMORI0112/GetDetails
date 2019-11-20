@@ -76,13 +76,13 @@ const Home = () => {
                             <img src={hp1} alt="hp1" width="100%" />
                         </div>
                         <div className="col-sm-12 col-md-3 col-lg-3">
-                            <img src={hp2} alt="hp2"/>
+                            <img src={hp2} alt="hp2" width="100%" />
                         </div>
                         <div className="col-sm-12 col-md-3 col-lg-3">
-                            <img src={hp3} alt="hp3"/>
+                            <img src={hp3} alt="hp3" width="100%" />
                         </div>
                         <div className="col-sm-12 col-md-3 col-lg-3">
-                            <img src={hp4} alt="hp4"/>
+                            <img src={hp4} alt="hp4" width="100%" />
                         </div>
                     </div>
                 </div>
