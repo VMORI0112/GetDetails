@@ -93,17 +93,17 @@ const Home = () => {
                     <div className="row mt-3">
                         <div className="col-sm-12 col-md-6 col-lg-6">
                             <div className={styles.contactInput}>
-                                <input type="text"/>
+                                <input type="text" placeholder="Name" />
                             </div>
                             <div className={styles.contactInput}>
-                                <input type="text"/>
+                                <input type="text" placeholder="Email Address" />
                             </div>
                             <div className={styles.contactInput}>
-                                <input type="text"/>
+                                <input type="text" placeholder="Subject" />
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-6 col-lg-6">
-                            <textarea className={styles.message} name="message"></textarea>
+                            <textarea className={styles.message} name="message" placeholder="How can we help you today?" ></textarea>
                         </div>
                     </div>
                 </div>
