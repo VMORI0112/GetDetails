@@ -65,7 +65,9 @@ const Home = () => {
                 </div>
             </div>
             <div className={styles.services}>
-                <h2>Services</h2>
+                <div className="container">
+                    <h2>Services</h2>
+                </div>
             </div>
         </section>
     );
