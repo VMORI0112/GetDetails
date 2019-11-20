@@ -95,10 +95,10 @@ const Home = () => {
                             <div className={styles.contactInput}>
                                 <input type="text"/>
                             </div>
-                            <div>
+                            <div className={styles.contactInput}>
                                 <input type="text"/>
                             </div>
-                            <div>
+                            <div className={styles.contactInput}>
                                 <input type="text"/>
                             </div>
                         </div>
