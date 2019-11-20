@@ -92,9 +92,15 @@ const Home = () => {
                     <h2>Contact us</h2>
                     <div className="row">
                         <div className="col-sm-12 col-md-6 col-lg-6">
-                            <input type="text"/>
-                            <input type="text"/>
-                            <input type="text"/>
+                            <div className={styles.contactInput}>
+                                <input type="text"/>
+                            </div>
+                            <div>
+                                <input type="text"/>
+                            </div>
+                            <div>
+                                <input type="text"/>
+                            </div>
                         </div>
                         <div className="col-sm-12 col-md-6 col-lg-6">
                             <textarea name="message" id="" cols="30" rows="10"></textarea>

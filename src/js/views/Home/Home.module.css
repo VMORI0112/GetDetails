@@ -55,3 +55,9 @@
     background-color: #0087c9;
     color: white;
 }
+.contact {
+    background-color: white;
+}
+.contactInput input {
+    width: 100%;
+}
