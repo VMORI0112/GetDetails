@@ -10,6 +10,10 @@ import port6 from '../../../img/home/port6.jpg';
 import port7 from '../../../img/home/port7.jpg';
 import port8 from '../../../img/home/port8.jpg';
 import port9 from '../../../img/home/port9.jpg';
+import hp1 from '../../../img/home/hp1.jpg';
+import hp2 from '../../../img/home/hp2.jpg';
+import hp3 from '../../../img/home/hp3.jpg';
+import hp4 from '../../../img/home/hp4.jpg';
 
 
 const Home = () => {
@@ -68,10 +72,18 @@ const Home = () => {
                 <div className="container py-5">
                     <h2>Services</h2>
                     <div className="row">
-                        <div className="col">1</div>
-                        <div className="col">2</div>
-                        <div className="col">3</div>
-                        <div className="col">4</div>
+                        <div className="col">
+                            <img src={hp1} alt="hp1"/>
+                        </div>
+                        <div className="col">
+                            <img src={hp2} alt="hp2"/>
+                        </div>
+                        <div className="col">
+                            <img src={hp3} alt="hp3"/>
+                        </div>
+                        <div className="col">
+                            <img src={hp4} alt="hp4"/>
+                        </div>
                     </div>
                 </div>
             </div>
