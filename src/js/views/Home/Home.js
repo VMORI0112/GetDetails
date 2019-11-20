@@ -90,6 +90,16 @@ const Home = () => {
             <div className={styles.contact}>
                 <div className="container py-5">
                     <h2>Contact us</h2>
+                    <div className="row">
+                        <div className="col-sm-12 col-md-6 col-lg-6">
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                        </div>
+                        <div className="col-sm-12 col-md-6 col-lg-6">
+                            <textarea name="message" id="" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
