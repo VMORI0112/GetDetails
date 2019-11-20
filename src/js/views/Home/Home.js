@@ -72,16 +72,16 @@ const Home = () => {
                 <div className="container py-5">
                     <h2>Services</h2>
                     <div className="row">
-                        <div className="col">
-                            <img src={hp1} alt="hp1"/>
+                        <div className="col-sm-12 col-md-3 col-lg-3">
+                            <img src={hp1} alt="hp1" width="100%" />
                         </div>
-                        <div className="col">
+                        <div className="col-sm-12 col-md-3 col-lg-3">
                             <img src={hp2} alt="hp2"/>
                         </div>
-                        <div className="col">
+                        <div className="col-sm-12 col-md-3 col-lg-3">
                             <img src={hp3} alt="hp3"/>
                         </div>
-                        <div className="col">
+                        <div className="col-sm-12 col-md-3 col-lg-3">
                             <img src={hp4} alt="hp4"/>
                         </div>
                     </div>
