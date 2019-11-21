@@ -127,7 +127,7 @@ const Register = () => {
                 <br/>
 
                 <button 
-                    className={["btn",styles.buttLogin].join(' ')}
+                    className={styles.buttLogin}
                     onClick={registerFormHandler}
                 >
                     REGISTER
