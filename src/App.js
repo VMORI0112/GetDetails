@@ -13,6 +13,9 @@ const Register = lazy(() => import('./js/views/Register/Register'));
 
 function App() {
 
+  const [backen_url] = useState('https://iwash-backend.herokuapp.com/');
+  const [Auth, setAuth] = useState(null);
+
   let tokenAuth = localStorage.getItem('token');
   // let userId = localStorage.getItem('userID');
   // let userEmail = localStorage.getItem('email');
@@ -26,7 +29,7 @@ function App() {
     };
   },[])
 
-  const providerValue = useMemo(() => ({ windowHeight }), [windowHeight]);
+  const providerValue = useMemo(() => ({ backen_url, Auth, setAuth, windowHeight }), [backen_url, Auth, setAuth, windowHeight]);
 
   return (
     <Router>

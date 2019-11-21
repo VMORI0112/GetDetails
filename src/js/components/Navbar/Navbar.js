@@ -22,10 +22,10 @@ const AircraftTrainNavBar = () => {
                 <ul className="nav navbar-nav navbar-right">
                     {!tokenAuth ?
                         <li>
-                            <Link to="/login" className={["btn", styles.btnGreen].join(' ')}> 
+                            <Link to="/login" className={styles.btn}> 
                                 Login
                             </Link>
-                            <Link to="/register" className={["btn", styles.btnGreen].join(' ')}> 
+                            <Link to="/register" className={styles.btn}> 
                                 Register
                             </Link>
                         </li>
