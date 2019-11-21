@@ -1,10 +1,11 @@
 import React from 'react';
+import styles from './LoggedHome.module.css';
 
 const LoggedHome = () => {
     return (
-        <>
-        logged Home
-        </>
+        <section className={styles.section}>
+            <h1>logged Home</h1>
+        </section>
     );
 };
 
