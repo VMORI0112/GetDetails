@@ -4,7 +4,8 @@ import styles from './LoggedHome.module.css';
 const LoggedHome = () => {
     return (
         <section className={styles.section}>
-            <h1>logged Home</h1>
+            <h1>Aicraft Training Records</h1>
+            
         </section>
     );
 };
