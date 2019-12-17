@@ -21,8 +21,8 @@ const Home = () => {
         <section className={styles.section}>
             <div className={styles.header}>
                 <div className={["style-banner text-center", styles.bannerInfo].join(' ')}>
-                    <p>The Best App For Your Records</p>
-                    <h3>Aircraft Training Records</h3>
+                    <p>The Best App For Accounting</p>
+                    <h3>GetDetails.com</h3>
                 </div>
             </div>
             <div className="about py-5 container">
