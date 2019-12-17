@@ -60,7 +60,7 @@ const Login = () => {
                         'avatar': avatar,
                         'wallet': wallet
                     })
-                    swal("LOGIN SUCCESSFUL!", "Welcome to ATR", "success", {
+                    swal("LOGIN SUCCESSFUL!", "Welcome to GetDetails.com", "success", {
                         button: "Let's Go",
                       }).then(() => {
                             history.push('/');
@@ -77,7 +77,7 @@ const Login = () => {
 
     return (
         <section className={styles.section} >
-                <a href="/"><img className={styles.plane} src={chart} alt="plane"/></a> 
+                <a href="/"><img className={styles.plane} src={chart} alt="Chart"/></a> 
                 <br/>
                 <input 
                     className={styles.inputForm} 
