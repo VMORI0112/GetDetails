@@ -9,9 +9,9 @@ const Footer = () => {
                <div className="row top-gap">
                   <div className="col-md-7 header-side">
                      <p> 
-                        © 2019 Aircraft Training Records.
+                        © 2020 GetDetails.com
                         <br/>
-                        All Rights Reserved | Design by Samir &amp; Victor.
+                        All Rights Reserved | Design by Pablo &amp; Samir.
                      </p>
                   </div>
                   <div className="col-md-5 header-side">
