@@ -4,7 +4,7 @@ import { UserContext } from '../../../UserContext';
 import styles from './Login.module.css';
 import swal from 'sweetalert';
 
-import plane from '../../../img/plane.gif';
+import chart from '../../../img/chart.gif';
 
 const Login = () => {
 
@@ -77,7 +77,7 @@ const Login = () => {
 
     return (
         <section className={styles.section} >
-                <a href="/"><img className={styles.plane} src={plane} alt="plane"/></a> 
+                <a href="/"><img className={styles.plane} src={chart} alt="plane"/></a> 
                 <br/>
                 <input 
                     className={styles.inputForm} 

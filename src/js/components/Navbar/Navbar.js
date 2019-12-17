@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
-import plane from '../../../img/plane.gif';
+import logo from '../../../img/logo.png';
 
 const AircraftTrainNavBar = () => {
     
@@ -15,7 +15,7 @@ const AircraftTrainNavBar = () => {
         <nav className={["navbar fixed-top navbar-expand-lg navbar-light", styles.navBarAirplane].join(' ')}>
             <div className="container">
                 <Link className="navbar-brand mobile" to="/">
-                    <img src={plane} width="30" height="30" className="d-inline-block align-top" alt="airplane"/>
+                    <img src={logo} width="30" height="30" className="d-inline-block align-top" alt="airplane"/>
                     &nbsp;
                     <span className={styles.wash}> AircraftTrainingRecords</span>
                 </Link>

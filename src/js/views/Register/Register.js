@@ -4,7 +4,7 @@ import { UserContext } from '../../../UserContext';
 import styles from './Register.module.css';
 import swal from 'sweetalert';
 
-import plane from '../../../img/plane.gif';
+import chart from '../../../img/chart.gif';
 
 const Register = () => {
     
@@ -83,7 +83,7 @@ const Register = () => {
     return (
         <section className={styles.section} style={{minHeight: windowHeight}}>
             
-                <img className={styles.plane} src={plane} alt="plane"/>
+                <img className={styles.plane} src={chart} alt="plane"/>
                 <br/>
                 <input 
                     className={styles.inputForm} 
