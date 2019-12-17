@@ -17,7 +17,7 @@ const AircraftTrainNavBar = () => {
                 <Link className="navbar-brand mobile" to="/">
                     <img src={logo} width="30" height="30" className="d-inline-block align-top" alt="airplane"/>
                     &nbsp;
-                    <span className={styles.wash}> AircraftTrainingRecords</span>
+                    <span className={styles.wash}> GetDatails.com</span>
                 </Link>
                 <ul className="nav navbar-nav navbar-right">
                     {!tokenAuth ?
@@ -36,10 +36,9 @@ const AircraftTrainNavBar = () => {
                                 <img src={process.env.PUBLIC_URL + '/img/avatar/' + avatar} alt="avatar" width="30px" /> {firstname} {lastname}
                                 </button>
                                 <div className="dropdown-menu dropdown-menu-right">
-                                    <Link className="dropdown-item" to="/" >Transactions</Link>
-                                    <Link className="dropdown-item" to="/training-records" >Current Training Records</Link>
-                                    <Link className="dropdown-item" to="/expire-next-month" >Courses will expire next month</Link>
-                                    <Link className="dropdown-item" to="/expire-between-dates" >Courses will expire between dates</Link>
+                                    <Link className="dropdown-item" to="/" >Home</Link>
+                                    <Link className="dropdown-item" to="/" >Chat</Link>
+                                    <Link className="dropdown-item" to="/" >Details</Link>
                                     <button 
                                         className="dropdown-item" 
                                         onClick={async () => {
