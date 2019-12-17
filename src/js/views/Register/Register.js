@@ -64,7 +64,7 @@ const Register = () => {
                 }).then(res => res.json())
                 .then(res => {
                     console.log(res);
-                    swal("ACCOUNT CREATED", "Welcome to iWash", "success", {
+                    swal("ACCOUNT CREATED", "Welcome to GetDetails.com", "success", {
                         button: "LOGIN NOW",
                       }).then(() => {
                             history.push('/login');
@@ -83,7 +83,7 @@ const Register = () => {
     return (
         <section className={styles.section} style={{minHeight: windowHeight}}>
             
-                <img className={styles.plane} src={chart} alt="plane"/>
+                <img className={styles.plane} src={chart} alt="chart"/>
                 <br/>
                 <input 
                     className={styles.inputForm} 
