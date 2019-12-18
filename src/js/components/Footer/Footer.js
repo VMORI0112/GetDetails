@@ -11,7 +11,7 @@ const Footer = () => {
                      <p> 
                         © 2020 GetDetails.com
                         <br/>
-                        All Rights Reserved | Design by Pablo &amp; Samir.
+                        All Rights Reserved | Design by Pablo Maida.
                      </p>
                   </div>
                   <div className="col-md-5 header-side">
