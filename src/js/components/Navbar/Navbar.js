@@ -37,7 +37,7 @@ const AircraftTrainNavBar = () => {
                                 </button>
                                 <div className="dropdown-menu dropdown-menu-right">
                                     <Link className="dropdown-item" to="/" >Home</Link>
-                                    <Link className="dropdown-item" to="/" >Chat</Link>
+                                    <Link className="dropdown-item" to="/chat" >Chat</Link>
                                     <Link className="dropdown-item" to="/" >Details</Link>
                                     <button 
                                         className="dropdown-item" 
