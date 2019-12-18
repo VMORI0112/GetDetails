@@ -29,11 +29,17 @@
     margin-left: 20px;
     margin-right:0;
 }
-.time-right {
+.timeRight {
     float: right;
     color: #aaa;
 }
-.time-left {
+.timeLeft {
     float: left;
     color: #999;
+}
+.rightP {
+    float: right;
+}
+.leftP {
+    float: left;
 }

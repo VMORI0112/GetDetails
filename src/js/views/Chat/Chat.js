@@ -11,26 +11,26 @@ const Chat = () => {
         <section className={styles.section}>
             <div className={styles.container}>
                 <img src={process.env.PUBLIC_URL + '/img/avatar/' + avatar} alt="Avatar" width="30px" />
-                <p>Hello. How are you today?</p>
-                <span class="time-right">11:00</span>
+                <p className={styles.leftP}>Hello. How are you today?</p>
+                <span className={styles.timeRight}>11:00</span>
             </div>
 
             <div className={[styles.container, styles.darker].join(' ')}>
                 <img className={styles.right} src={process.env.PUBLIC_URL + '/img/avatar/' + avatar} alt="Avatar" width="30px" />
-                <p>Hey! I'm fine. Thanks for asking!</p>
-                <span class="time-left">11:01</span>
+                <p className={styles.rightP}>Hey! I'm fine. Thanks for asking!</p>
+                <span className={styles.timeLeft}>11:01</span>
             </div>
 
             <div className={styles.container}>
                 <img src={process.env.PUBLIC_URL + '/img/avatar/' + avatar} alt="Avatar" width="30px" />
-                <p>Sweet! So, what do you wanna do today?</p>
-                <span class="time-right">11:02</span>
+                <p className={styles.leftP}>Sweet! So, what do you wanna do today?</p>
+                <span className={styles.timeRight}>11:02</span>
             </div>
 
             <div className={[styles.container, styles.darker].join(' ')}>
                 <img className={styles.right} src={process.env.PUBLIC_URL + '/img/avatar/' + avatar} alt="Avatar" width="30px" />
-                <p>Nah, I dunno. Play soccer.. or learn more coding perhaps?</p>
-                <span class="time-left">11:05</span>
+                <p className={styles.rightP}>Nah, I dunno. Play soccer.. or learn more coding perhaps?</p>
+                <span className={styles.timeLeft}>11:05</span>
             </div>
         </section>
     );
