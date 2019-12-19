@@ -29,7 +29,9 @@ const Home = () => {
                 <div className="row">
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <h2>About Us</h2>
-                        <p>For example, if you killed your grandfather, you'd cease to exist! The key to victory is discipline, and that means a well made bed. You will practice until you can make your bed in your sleep.</p>
+                        <p>We give you a dedicated team of bookkeepers to do your books, and intuitive software to track your financials. <br/><br/>
+                        Each month, you’ll get a clear, accurate Income Statement and Balance Sheet. With all of your transactions organized into categories, you can easily monitor how much you earn and spend each month, how much you own, and how much you owe.
+                        </p>
                     </div>
                     <div className={["col-sm-12 col-md-6 col-lg-6", styles.worker1].join(' ')}>
                         <img src={worker1} alt="worker1" width="100%" />
