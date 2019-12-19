@@ -60,7 +60,7 @@ const Login = () => {
                         'avatar': avatar,
                         'wallet': wallet
                     })
-                    swal("LOGIN SUCCESSFUL!", "Welcome to GetDetails.com", "success", {
+                    swal("LOGIN SUCCESSFUL!", "Welcome to GetDetails", "success", {
                         button: "Let's Go",
                       }).then(() => {
                             history.push('/');
