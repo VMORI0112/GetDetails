@@ -17,7 +17,7 @@ const AircraftTrainNavBar = () => {
                 <Link className="navbar-brand mobile" to="/">
                     <img src={logo} width="30" height="30" className="d-inline-block align-top" alt="airplane"/>
                     &nbsp;
-                    <span className={styles.wash}> GetDatails.com</span>
+                    <span className={styles.wash}> GetDatails</span>
                 </Link>
                 <ul className="nav navbar-nav navbar-right">
                     {!tokenAuth ?
