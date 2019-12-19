@@ -14,7 +14,7 @@ const Chat = lazy(() => import('./js/views/Chat/Chat'));
 
 function App() {
 
-  const [backen_url] = useState('https://3000-f3afbda3-d932-43a6-a17c-f41c2263f713.ws-us02.gitpod.io');
+  const [backen_url] = useState('https://get-details-backend.herokuapp.com');
   const [Auth, setAuth] = useState(null);
 
   let tokenAuth = localStorage.getItem('token');
