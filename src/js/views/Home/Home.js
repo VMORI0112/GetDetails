@@ -22,7 +22,7 @@ const Home = () => {
             <div className={styles.header}>
                 <div className={["style-banner text-center", styles.bannerInfo].join(' ')}>
                     <p>The Best App For Accounting</p>
-                    <h3>GetDetails.com</h3>
+                    <h3>GetDetails</h3>
                 </div>
             </div>
             <div className="about py-5 container">
