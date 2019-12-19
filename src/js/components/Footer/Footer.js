@@ -9,7 +9,7 @@ const Footer = () => {
                <div className="row top-gap">
                   <div className="col-md-7 header-side">
                      <p> 
-                        © 2020 GetDetails.com
+                        © 2020 GetDetails
                         <br/>
                         All Rights Reserved | Design by Pablo Maida.
                      </p>
